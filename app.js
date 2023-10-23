@@ -17,7 +17,7 @@ app.get("/", (req, res)=> {
 })
 
 app.use("/api", require("./routes/frases"));
-app.use("/api/", require("./routes/frasefinal"));
-app.use("/api/", require("./routes/variables"));
+app.use("/api", require("./routes/frasefinal"));
+app.use("/api", require("./routes/variables"));
 
-// db.execute("SELECT * FROM frasesfinales ").then((res) => console.log("get all", res[0][0])).catch((err) => console.log(err, "not working"))
+db.execute("SELECT * FROM plantillafrases ").then((res) => console.log("get all", res[0][0])).catch((err) => console.log(err, "not working"))

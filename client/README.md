@@ -1,7 +1,14 @@
-# Vue 3 + Vite
+DEFINICIÓN APP
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Es una aplicación para crear frases con sentidos aleatorios.
 
-## Recommended IDE Setup
+Mediante un método get recibimos una plantilla de frases.
+con el formulario podemos recibir la información del usuario
+y mediante otro get by id + el input del formulario se crea una frase con lo rellenado.
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+Esto no se ha podido conseguir:
+- Crear una routa con router a una página con frases posteadas.
+- hacer un post de lo obtenido (tenia algun problema con los ID)
+- hacer el get del post para mostar en la pagina que no se ha podido crear.
+
+Aún así la funcionalidad de la página cumple su fin, aunque no se pueda guardar la frase. 
